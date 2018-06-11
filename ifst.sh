@@ -35,16 +35,18 @@
 #fi
 
 #Instance 5
+echo "Please enter your age for the eligible for alcholic product"
 read -p ' age ': user_var
 echo "Enter your age : $user_var"
 #a=21
 if (($user_var >= 21))
 then
-       echo "You are  eligable for alcholic  product"
+       echo "Nice!! You are  eligable for alcholic  product"
 else
-        echo "You are under age for alcholic products"
+        echo "Sorry!!! You are under age for alcholic products"
 fi
 
+# binay
 # binay
 # binay
 # binay
